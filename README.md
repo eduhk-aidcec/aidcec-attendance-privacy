@@ -1,7 +1,8 @@
 # AIDCEC Attendance — Privacy Policy
 
 This repository hosts the public privacy policy for the **AIDCEC Attendance** mobile app and the
-EdUHK AI Education Platform, served as a static site via GitHub Pages.
+AIEP Teaching and Learning Platform (used for the MSc(AIEP) programme and related courses at EdUHK;
+previously branded AIDCEC), served as a static site via GitHub Pages.
 
 **Live URL:** https://eduhk-aidcec.github.io/aidcec-attendance-privacy/
 
@@ -9,6 +10,8 @@ Use this URL in:
 
 - Google Play Console → App content → Privacy policy
 - App Store Connect → App Privacy → Privacy Policy URL
+
+Privacy questions: MSc(AIEP) Programme Office, aiep@eduhk.hk, Tel 2948 7275, https://www.aidcec.eduhk.hk/msc-aiep/.
 
 ## Structure
 
@@ -30,7 +33,7 @@ Repo → **Settings** → **Pages** → Source: **Deploy from branch** → Branc
 
 ## Source of truth
 
-The content originates from the platform monorepo's draft at `web/src/app/privacy/page.tsx`
-(EdUHK AI Education Platform), extended here with Hong Kong PDPO-specific sections (collection
+The content originates from the platform monorepo's draft at `web/src/app/[locale]/privacy/page.tsx`
+(AIEP Teaching and Learning Platform), extended here with Hong Kong PDPO-specific sections (collection
 statement, cross-border transfer, access/correction rights, PCPD complaints) and a Traditional
 Chinese translation for Hong Kong app store submissions.
